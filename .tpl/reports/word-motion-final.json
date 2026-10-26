@@ -1,0 +1,38 @@
+[
+  {
+    "device": "desktop",
+    "initial": {
+      "first": "opacity:0.001;filter:blur(10px);transform:translateY(10px)",
+      "last": "opacity:0.001;filter:blur(10px);transform:translateY(10px)",
+      "words": 41
+    },
+    "final": {
+      "first": "opacity: 1; filter: blur(0px); transform: none;",
+      "last": "opacity: 1; filter: blur(0px); transform: none;"
+    }
+  },
+  {
+    "device": "tablet",
+    "initial": {
+      "first": "opacity:0.001;filter:blur(10px);transform:translateY(10px)",
+      "last": "opacity:0.001;filter:blur(10px);transform:translateY(10px)",
+      "words": 41
+    },
+    "final": {
+      "first": "opacity: 1; filter: blur(0px); transform: none;",
+      "last": "opacity: 1; filter: blur(0px); transform: none;"
+    }
+  },
+  {
+    "device": "mobile",
+    "initial": {
+      "first": "opacity:0.001;filter:blur(10px);transform:translateY(10px)",
+      "last": "opacity:0.001;filter:blur(10px);transform:translateY(10px)",
+      "words": 41
+    },
+    "final": {
+      "first": "opacity: 1; filter: blur(0px); transform: none;",
+      "last": "opacity: 1; filter: blur(0px); transform: none;"
+    }
+  }
+]

@@ -6,12 +6,18 @@ export function Reveal({children,delay=0,className=''}:{children:ReactNode;delay
  const reduced=useReducedMotion()
  return <motion.div className={className} initial={reduced?false:{opacity:0,y:40}} whileInView={{opacity:1,y:0}} viewport={{once:true,amount:.12}} transition={{type:'spring',stiffness:110,damping:24,delay:reduced?0:delay}}>{children}</motion.div>
 }
+const wordParts=(value:string)=>/[\u3400-\u9fff]/.test(value)?Array.from(value):value.split(' ')
+function AnimatedWords({value,offset=0,delay=0}:{value:string;offset?:number;delay?:number}) {
+ const reduced=useReducedMotion(),chinese=/[\u3400-\u9fff]/.test(value)
+ return <>{wordParts(value).map((word,i)=><motion.span key={i} className="hw-word" initial={reduced?false:{opacity:.001,y:10,filter:'blur(10px)'}} whileInView={{opacity:1,y:0,filter:'blur(0px)'}} viewport={{once:true}} transition={{duration:.7,delay:reduced?0:delay+(offset+i)*.035,ease:[.22,1,.36,1]}}>{word}{chinese?'':' '}</motion.span>)}</>
+}
+/** 标题与原站逐词正文共用字词运动，保留中文字符分段与减少动态效果。 */
 export function Title({title,accent,hero=false,level}:{title:string;accent:string;hero?:boolean;level?:1|2}) {
- const reduced=useReducedMotion(),Tag=hero||level===1?motion.h1:motion.h2
- // 英文按词、中文按字错峰；中文总时长受限，避免长标题拖延阅读。
- const parts=(value:string)=>/[\u3400-\u9fff]/.test(value)?Array.from(value):value.split(' ')
- const render=(value:string,offset:number)=>parts(value).map((word,i)=><motion.span key={i} className="hw-word" initial={reduced?false:{opacity:.001,y:10,filter:'blur(10px)'}} whileInView={{opacity:1,y:0,filter:'blur(0px)'}} viewport={{once:true}} transition={{duration:.7,delay:reduced?0:(offset+i)*.035,ease:[.22,1,.36,1]}}>{word}{/[\u3400-\u9fff]/.test(value)?'':' '}</motion.span>)
- return <Tag aria-label={`${title} ${accent}`}>{render(title,0)}<em>{render(accent,parts(title).length)}</em></Tag>
+ const Tag=hero||level===1?motion.h1:motion.h2
+ return <Tag aria-label={`${title} ${accent}`}><AnimatedWords value={title}/><em><AnimatedWords value={accent} offset={wordParts(title).length}/></em></Tag>
+}
+export function TextReveal({text,delay=0}:{text:string;delay?:number}) {
+ return <p><span className="hw-sr">{text}</span><span aria-hidden="true"><AnimatedWords value={text} delay={delay}/></span></p>
 }
 export function Counter({value,suffix}:{value:number;suffix:string}) {
  const ref=useRef<HTMLSpanElement>(null),seen=useInView(ref,{once:true,amount:.5}),reduced=useReducedMotion(),[count,setCount]=useState(0)
