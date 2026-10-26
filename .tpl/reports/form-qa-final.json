@@ -1,0 +1,38 @@
+[
+  {
+    "width": 1440,
+    "locale": "zh",
+    "invalid": 5,
+    "status": "校验通过。演示信息未发送、未保存，预约尚未成立。"
+  },
+  {
+    "width": 1440,
+    "locale": "en",
+    "invalid": 5,
+    "status": "Validation passed. Nothing was sent or saved; no appointment has been made."
+  },
+  {
+    "width": 834,
+    "locale": "zh",
+    "invalid": 5,
+    "status": "校验通过。演示信息未发送、未保存，预约尚未成立。"
+  },
+  {
+    "width": 834,
+    "locale": "en",
+    "invalid": 5,
+    "status": "Validation passed. Nothing was sent or saved; no appointment has been made."
+  },
+  {
+    "width": 390,
+    "locale": "zh",
+    "invalid": 5,
+    "status": "校验通过。演示信息未发送、未保存，预约尚未成立。"
+  },
+  {
+    "width": 390,
+    "locale": "en",
+    "invalid": 5,
+    "status": "Validation passed. Nothing was sent or saved; no appointment has been made."
+  }
+]

@@ -1,0 +1,222 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "hydrowell",
+  "gitUrl": "https://github.com/weelume/hydrowell-template",
+  "name": "Hydrowell · 专业水暖服务",
+  "localizedNames": {
+    "en": "Hydrowell · Plumbing & home services"
+  },
+  "sceneId": "corporate-site",
+  "listed": false,
+  "tags": [
+    "水暖维修",
+    "居家服务",
+    "暖白橙色",
+    "中英文",
+    "PC / iPad / H5"
+  ],
+  "summary": "水暖与家居服务品牌官网，包含前后对比、图文循环评价、服务价格、FAQ、视频故事、知识文章与本地咨询演示。",
+  "accentColor": "#ce6b36",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "Hydrowell desktop-home",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-services.webp",
+      "alt": "Hydrowell desktop-services",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "services"
+    },
+    {
+      "src": "assets/desktop-blog.webp",
+      "alt": "Hydrowell desktop-blog",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "Hydrowell desktop-contact",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "Hydrowell tablet-home",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-services.webp",
+      "alt": "Hydrowell tablet-services",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "services"
+    },
+    {
+      "src": "assets/tablet-blog.webp",
+      "alt": "Hydrowell tablet-blog",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "Hydrowell tablet-contact",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "Hydrowell mobile-home",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-services.webp",
+      "alt": "Hydrowell mobile-services",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "services"
+    },
+    {
+      "src": "assets/mobile-blog.webp",
+      "alt": "Hydrowell mobile-blog",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "Hydrowell mobile-contact",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    }
+  ],
+  "version": "1.0.0",
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "水暖官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "services",
+          "title": "专业服务",
+          "localizedTitles": {
+            "en": "Services"
+          }
+        },
+        {
+          "slug": "blog",
+          "title": "水暖知识",
+          "localizedTitles": {
+            "en": "Journal"
+          }
+        },
+        {
+          "slug": "blog/find-hidden-leaks",
+          "title": "如何发现隐蔽漏水",
+          "localizedTitles": {
+            "en": "How to spot a hidden leak"
+          }
+        },
+        {
+          "slug": "blog/drain-care",
+          "title": "厨房排水维护",
+          "localizedTitles": {
+            "en": "Kitchen drain care"
+          }
+        },
+        {
+          "slug": "blog/water-heater-care",
+          "title": "热水器维护",
+          "localizedTitles": {
+            "en": "Water heater care"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系我们",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "privacy-policy",
+          "title": "隐私政策",
+          "localizedTitles": {
+            "en": "Privacy Policy"
+          }
+        },
+        {
+          "slug": "terms-conditions",
+          "title": "使用条款",
+          "localizedTitles": {
+            "en": "Terms & Conditions"
+          }
+        }
+      ]
+    }
+  ],
+  "stack": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "framer-motion"
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "原站图片与设计的商业再分发许可尚未确认；仅作演示，禁止市场上架。",
+    "redistributionAllowed": false
+  }
+}

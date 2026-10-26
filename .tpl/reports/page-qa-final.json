@@ -1,0 +1,578 @@
+[
+  {
+    "width": 1440,
+    "path": "",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "services",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "contact",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "blog",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "blog/find-hidden-leaks",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "blog/drain-care",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "blog/water-heater-care",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "privacy-policy",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "terms-conditions",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "en/",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "en/services",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "en/contact",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "en/blog",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "en/blog/find-hidden-leaks",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "en/blog/drain-care",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "en/blog/water-heater-care",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "en/privacy-policy",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 1440,
+    "path": "en/terms-conditions",
+    "broken": [],
+    "contentWidth": 1430,
+    "h1": 1,
+    "scrollWidth": 1430
+  },
+  {
+    "width": 834,
+    "path": "",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "services",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "contact",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "blog",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "blog/find-hidden-leaks",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "blog/drain-care",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "blog/water-heater-care",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "privacy-policy",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "terms-conditions",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "en/",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "en/services",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "en/contact",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "en/blog",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "en/blog/find-hidden-leaks",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "en/blog/drain-care",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "en/blog/water-heater-care",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "en/privacy-policy",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "path": "en/terms-conditions",
+    "broken": [],
+    "contentWidth": 824,
+    "h1": 1,
+    "scrollWidth": 824
+  },
+  {
+    "width": 390,
+    "path": "",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "services",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "contact",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "blog",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "blog/find-hidden-leaks",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "blog/drain-care",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "blog/water-heater-care",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "privacy-policy",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "terms-conditions",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "en/",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "en/services",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "en/contact",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "en/blog",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "en/blog/find-hidden-leaks",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "en/blog/drain-care",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "en/blog/water-heater-care",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "en/privacy-policy",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 390,
+    "path": "en/terms-conditions",
+    "broken": [],
+    "contentWidth": 380,
+    "h1": 1,
+    "scrollWidth": 380
+  },
+  {
+    "width": 320,
+    "path": "",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "services",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "contact",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "blog",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "blog/find-hidden-leaks",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "blog/drain-care",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "blog/water-heater-care",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "privacy-policy",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "terms-conditions",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "en/",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "en/services",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "en/contact",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "en/blog",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "en/blog/find-hidden-leaks",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "en/blog/drain-care",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "en/blog/water-heater-care",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "en/privacy-policy",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  },
+  {
+    "width": 320,
+    "path": "en/terms-conditions",
+    "broken": [],
+    "contentWidth": 310,
+    "h1": 1,
+    "scrollWidth": 310
+  }
+]

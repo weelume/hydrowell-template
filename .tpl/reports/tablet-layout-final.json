@@ -1,0 +1,50 @@
+[
+  {
+    "width": 651,
+    "locale": "zh",
+    "assuranceBottom": 587.6145935058594,
+    "contentWidth": 641,
+    "factsTop": 627.6146240234375,
+    "scrollWidth": 641
+  },
+  {
+    "width": 651,
+    "locale": "en",
+    "assuranceBottom": 638.1979217529297,
+    "contentWidth": 641,
+    "factsTop": 678.1979370117188,
+    "scrollWidth": 641
+  },
+  {
+    "width": 834,
+    "locale": "zh",
+    "assuranceBottom": 587.6145935058594,
+    "contentWidth": 824,
+    "factsTop": 627.6146240234375,
+    "scrollWidth": 824
+  },
+  {
+    "width": 834,
+    "locale": "en",
+    "assuranceBottom": 638.1979217529297,
+    "contentWidth": 824,
+    "factsTop": 678.5269165039062,
+    "scrollWidth": 824
+  },
+  {
+    "width": 1100,
+    "locale": "zh",
+    "assuranceBottom": 587.6145935058594,
+    "contentWidth": 1090,
+    "factsTop": 627.6146240234375,
+    "scrollWidth": 1090
+  },
+  {
+    "width": 1100,
+    "locale": "en",
+    "assuranceBottom": 638.1979217529297,
+    "contentWidth": 1090,
+    "factsTop": 678.5841674804688,
+    "scrollWidth": 1090
+  }
+]

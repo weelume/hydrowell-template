@@ -1,0 +1,18 @@
+{
+  "devices": [
+    {
+      "device": "mobile",
+      "releasedPosition": "81%"
+    },
+    {
+      "device": "tablet",
+      "releasedPosition": "77%"
+    },
+    {
+      "device": "desktop",
+      "releasedPosition": "36%"
+    }
+  ],
+  "method": "内置浏览器原生拖动；截图见 evidence。",
+  "spring": "原站是持续前后比较，不在释放时自动回中。"
+}

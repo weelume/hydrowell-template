@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-26T10:41:33.355Z",
+  "sourceCommit": null,
+  "sourceDigest": "6f5b9b303af73a924eaab971f1112f0e88a9b01299d38f8c36b4d0bcbb4e6a64",
+  "environment": {
+    "platform": "local-wsl-linux",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm@9.15.4",
+    "cleanDirectory": true,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T10:34:47.630Z",
+      "finishedAt": "2026-10-26T10:34:48.789Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T10:34:48.791Z",
+      "finishedAt": "2026-10-26T10:34:50.560Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T10:34:50.561Z",
+      "finishedAt": "2026-10-26T10:35:09.831Z"
+    },
+    {
+      "id": "verify",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "verify"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T10:35:09.831Z",
+      "finishedAt": "2026-10-26T10:35:10.143Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-26T10:41:33.355Z"
+    }
+  ],
+  "limitations": [
+    "原站素材商业再分发许可未确认，保持listed=false。",
+    "原站精确缓动、所有错峰时长、循环速度和三端每帧轨迹未完整量测；不声明逐像素一致。",
+    "系统减少动态效果的实际模拟、滚动条鼠标拖动与触控惯性未完整对照。",
+    "原站故事视频为Framer产品演示，保留原嵌入并依赖YouTube。"
+  ]
+}
