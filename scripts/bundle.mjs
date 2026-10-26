@@ -3,11 +3,12 @@ import { promisify } from 'node:util'
 import { createHash } from 'node:crypto'
 import { readFile,writeFile,mkdir } from 'node:fs/promises'
 import { resolve,join } from 'node:path'
-import { invocation } from '../.tpl/tools/doctor.mjs'
 const exec=promisify(execFile),root=resolve(import.meta.dirname,'..'),output=join(root,'.work/packages')
 await mkdir(output,{recursive:true})
-const command=await invocation('pnpm',['pack','--pack-destination',output])
-await exec(command.file,command.args,{cwd:root,windowsHide:true,maxBuffer:1024*1024})
+// 嵌套打包复用启动本脚本的 pnpm 入口，避免 PATH 中其他版本覆盖项目工具链。
+const packageManagerEntry=process.env.npm_execpath
+if(!packageManagerEntry)throw new Error('请通过 pnpm run bundle 执行，以使用项目固定的包管理器')
+await exec(process.execPath,[packageManagerEntry,'pack','--pack-destination',output],{cwd:root,windowsHide:true,maxBuffer:1024*1024})
 // 精确选择本次版本，防止输出目录中的历史归档被误报为新包。
 const manifest=JSON.parse(await readFile(join(root,'package.json'),'utf8'))
 const name=manifest.name+'-'+manifest.version+'.tgz'
@@ -19,3 +20,4 @@ const sourceDirty=(await exec('git',['status','--porcelain'],{cwd:root,windowsHi
 const report={archive,sha256,sourceCommit,sourceDirty}
 await writeFile(join(output,'bundle.json'),JSON.stringify(report,null,2)+'\n')
 console.log(JSON.stringify(report,null,2))
+

@@ -3,9 +3,9 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-26T10:41:33.355Z",
-  "sourceCommit": null,
-  "sourceDigest": "6f5b9b303af73a924eaab971f1112f0e88a9b01299d38f8c36b4d0bcbb4e6a64",
+  "checkedAt": "2026-10-26T10:45:24.670Z",
+  "sourceCommit": "843aeec30ba39fbeb60f759e0752fb7fe2b1d437",
+  "sourceDigest": "72081171eab5bc06447e19d833e340598f7f0d22576dff399b71ebcbbe34e13b",
   "environment": {
     "platform": "local-wsl-linux",
     "arch": "x64",
